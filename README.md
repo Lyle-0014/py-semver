@@ -3,9 +3,8 @@
 ```
 semver.py
 ```
+Execute the Python Semver test suite adjacent to the core implementation to observe deterministic examples of version resolution.
 
-See the test next to the source for usage.
+We parse and compare semantic versions with strict adherence to specification constraints. No external dependencies are required.
 
-Parse and compare semantic versions — no dependencies.
-
-No dependencies, no service to run — just the standard library.
+This module relies exclusively on the standard library. Eliminating third-party packages maintains a verifiable audit trail and satisfies strict compliance limits regarding supply chain provenance.
